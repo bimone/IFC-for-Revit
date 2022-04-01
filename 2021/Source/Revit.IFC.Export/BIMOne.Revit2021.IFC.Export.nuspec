@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>BIMOne.Revit2021.IFC.Export</id>
+        <version>21.3.0.0</version>
+        <authors>BIM One Inc.</authors>
+        <description>IFC Exporter for Revit.</description>
+    <dependencies>
+      <dependency id="BIMOne.Autodesk.Revit2021.RevitAPI" version="21.1.30.74" />
+      <dependency id="BIMOne.Autodesk.Revit2021.RevitAPIIFC" version="21.1.30.74" />
+      <dependency id="BIMOne.Autodesk.Revit2021.SteelConnections.ASIFC" version="21.1.30.74" />
+      <dependency id="Newtonsoft.Json" version="13.0.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\*.dll" target="lib\net48" />
+    <file src="bin\Release\*.exp" target="lib\net48" />
+    <file src="bin\Release\*.txt" target="lib\net48" />
+    <file src="bin\Release\*.json" target="lib\net48" />
+  </files>
+</package>
